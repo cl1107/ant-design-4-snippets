@@ -1,0 +1,40 @@
+{
+  "name": "ant-design-snippets",
+  "displayName": "Ant Design Snippets",
+  "description": "Ant Design V4 Snippets for VSCode",
+  "license": "MIT",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "icon": "image/antd.png",
+  "publisher": "cl1107",
+  "homepage": "https://github.com/cl1107/antd4-snippets/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cl1107/antd4-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
