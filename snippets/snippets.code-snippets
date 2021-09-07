@@ -103,10 +103,8 @@
     "prefix": "adrow",
     "body": [
       "<Row gutter={16}>\r",
-      "    <Col span={6} />\r",
-      "    <Col span={6} />\r",
-      "    <Col span={6} />\r",
-      "    <Col span={6} />\r",
+      "    <Col span={12}>$1</Col>\r",
+      "    <Col span={12}>$2</Col>\r",
       "</Row>\r",
       ""
     ],
@@ -367,6 +365,11 @@
     ],
     "description": ""
   },
+  "Form Item": {
+    "prefix": "adformitem",
+    "body": ["<Form.Item label=\"$1\" name=\"$2\">", "  $3", "</Form.Item>"],
+    "description": ""
+  },
   "Input": {
     "prefix": "adinput",
     "body": ["<Input placeholder=\"Basic usage\" />\r", ""],
@@ -385,6 +388,11 @@
     "body": [
       "<Input.Search placeholder=\"$1\" allowClear onSearch={onSearch} style={{ width: 200 }} />"
     ],
+    "description": ""
+  },
+  "Input TextArea": {
+    "prefix": "adinput-textarea",
+    "body": ["<Input.TextArea placeholder=\"$1\" allowClear />"],
     "description": ""
   },
   "Input Password": {
@@ -473,10 +481,10 @@
       "      option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0",
       "    }",
       "  >",
-      "    <Option value=\"jack\">Jack</Option>",
-      "    <Option value=\"lucy\">Lucy</Option>",
-      "    <Option value=\"tom\">Tom</Option>",
-      "  </Select>,"
+      "    <Select.Option value=\"jack\">Jack</Select.Option>",
+      "    <Select.Option value=\"lucy\">Lucy</Select.Option>",
+      "    <Select.Option value=\"tom\">Tom</Select.Option>",
+      "  </Select>"
     ],
     "description": ""
   },
@@ -851,7 +859,7 @@
       "  },",
       "];",
       "",
-      "<Table dataSource={dataSource} columns={columns} />;"
+      "<Table dataSource={dataSource} columns={columns} />"
     ],
     "description": ""
   },

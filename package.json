@@ -9,10 +9,10 @@
   },
   "icon": "image/antd.png",
   "publisher": "cl1107",
-  "homepage": "https://github.com/cl1107/antd4-snippets/blob/main/README.md",
+  "homepage": "https://github.com/cl1107/ant-design-4-snippets/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cl1107/antd4-snippets"
+    "url": "https://github.com/cl1107/ant-design-4-snippets"
   },
   "categories": [
     "Snippets"
