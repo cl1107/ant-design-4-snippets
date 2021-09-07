@@ -16,7 +16,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - update homepageUrl
 
-## [0.0.3] - 2021-09-07
+## [0.0.4] - 2021-09-07
 
 ### changed
 
