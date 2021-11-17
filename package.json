@@ -3,7 +3,7 @@
   "displayName": "Ant Design Snippets",
   "description": "Ant Design V4 Snippets for VSCode",
   "license": "MIT",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.58.0"
   },
