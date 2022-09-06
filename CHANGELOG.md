@@ -32,3 +32,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - add adselect-filter
 - simplify adselect
+
+## [0.0.6] - 2022-09-06
+
+### changed
+
+- add antd 4.23 tabs new usage
+- update treeSelect snippets
