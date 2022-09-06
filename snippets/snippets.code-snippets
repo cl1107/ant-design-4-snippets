@@ -163,6 +163,7 @@
   "Dropdown": {
     "prefix": "addropdown",
     "body": [
+      "import { DownOutlined } from '@ant-design/icons';",
       "const menu = <Menu>\r",
       "    <Menu.Item>\r",
       "        <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">1st menu item</a>\r",
@@ -177,7 +178,7 @@
       "\r",
       "<Dropdown overlay={menu}>\r",
       "    <a className=\"ant-dropdown-link\" href=\"#\">\r",
-      "      Hover me <Icon type=\"down\" />\r",
+      "      Hover me <DownOutlined />\r",
       "    </a>\r",
       "</Dropdown>",
       ""

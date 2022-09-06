@@ -39,3 +39,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - add antd 4.23 tabs new usage
 - update treeSelect snippets
+
+## [0.0.7] - 2022-09-06
+
+### changed
+
+- dropdown icon 更改
