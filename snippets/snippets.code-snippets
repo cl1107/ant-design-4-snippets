@@ -150,51 +150,49 @@
   "Breadcrumb": {
     "prefix": "adbread",
     "body": [
-      "<Breadcrumb>\r",
-      "    <Breadcrumb.Item>Home</Breadcrumb.Item>\r",
-      "    <Breadcrumb.Item><a href=\"\">Application Center</a></Breadcrumb.Item>\r",
-      "    <Breadcrumb.Item><a href=\"\">Application List</a></Breadcrumb.Item>\r",
-      "    <Breadcrumb.Item>An Application</Breadcrumb.Item>\r",
-      "</Breadcrumb>\r",
-      ""
+      "// >=4.24.0 可用，推荐的写法 ✅",
+      "const items = [",
+      "  { label: '菜单项一', key: 'item-1' }, // 菜单项务必填写 key",
+      "  { label: '菜单项二', key: 'item-2' },",
+      "];",
+      "return (",
+      "  <Breadcrumb>",
+      "    <Breadcrumb.Item menu={{ items }}>Ant Design</Breadcrumb.Item>",
+      "  </Breadcrumb>",
+      ");"
     ],
     "description": ""
   },
   "Dropdown": {
     "prefix": "addropdown",
     "body": [
-      "import { DownOutlined } from '@ant-design/icons';",
-      "const menu = <Menu>\r",
-      "    <Menu.Item>\r",
-      "        <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">1st menu item</a>\r",
-      "    </Menu.Item>\r",
-      "    <Menu.Item>\r",
-      "        <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">2nd menu item</a>\r",
-      "    </Menu.Item>\r",
-      "    <Menu.Item>\r",
-      "        <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">3d menu item</a>\r",
-      "    </Menu.Item>\r",
-      "</Menu>\r",
-      "\r",
-      "<Dropdown overlay={menu}>\r",
-      "    <a className=\"ant-dropdown-link\" href=\"#\">\r",
-      "      Hover me <DownOutlined />\r",
-      "    </a>\r",
-      "</Dropdown>",
-      ""
+      "// >=4.24.0 可用，推荐的写法 ✅",
+      "const items = [",
+      "  { label: '菜单项一', key: 'item-1' }, // 菜单项务必填写 key",
+      "  { label: '菜单项二', key: 'item-2' },",
+      "];",
+      "return (",
+      "  <Dropdown menu={{ items }}>",
+      "    <a>Hover me</a>",
+      "  </Dropdown>",
+      ");"
     ],
-    "description": "The Basic Dropdown."
+    "description": ""
+    
   },
   "Menu": {
     "prefix": "admenu",
     "body": [
-      "<Menu>\r",
-      "    <Menu.Item>Menu</Menu.Item>\r",
-      "    <SubMenu title=\"SubMenu\">\r",
-      "        <Menu.Item>SubMenuItem</Menu.Item>\r",
-      "    </SubMenu>\r",
-      "</Menu>\r",
-      ""
+      "const items = [",
+      "  { label: '菜单项一', key: 'item-1' }, // 菜单项务必填写 key",
+      "  { label: '菜单项二', key: 'item-2' },",
+      "  {",
+      "    label: '子菜单',",
+      "    key: 'submenu',",
+      "    children: [{ label: '子菜单项', key: 'submenu-item-1' }],",
+      "  },",
+      "];",
+      "return <Menu items={items} />;"
     ],
     "description": ""
   },
@@ -237,12 +235,9 @@
   "Steps": {
     "prefix": "adsteps",
     "body": [
-      "<Steps current={1}>\r",
-      "    <Steps.Step title=\"Finished\" description=\"This is a description.\" />\r",
-      "    <Steps.Step title=\"In Progress\" description=\"This is a description.\" />\r",
-      "    <Steps.Step title=\"Waiting\" description=\"This is a description.\" />\r",
-      "</Steps>\r",
-      ""
+      "// >=4.24.0 可用，推荐的写法 ✅",
+      "const items = [{ title: '第一步' }, { title: '第二步' }, { title: '第三步' }];",
+      "return <Steps items={items} />;"
     ],
     "description": ""
   },
@@ -886,12 +881,12 @@
   "Tabs": {
     "prefix": "adtabs",
     "body": [
-      "<Tabs defaultActiveKey=\"1\" type=\"${1|line,card,editable-card|}\">\r",
-      "    <Tabs.TabPane tab=\"Tab 1\" key=\"1\">Content of Tab Pane 1</Tabs.TabPane>\r",
-      "    <Tabs.TabPane tab=\"Tab 2\" key=\"2\">Content of Tab Pane 2</Tabs.TabPane>\r",
-      "    <Tabs.TabPane tab=\"Tab 3\" key=\"3\">Content of Tab Pane 3</Tabs.TabPane>\r",
-      "</Tabs>\r",
-      ""
+      "// >=4.23.0 可用，推荐的写法 ✅",
+      "const items = [",
+      "  { label: '项目 1', key: 'item-1', children: '内容 1' }, // 务必填写 key",
+      "  { label: '项目 2', key: 'item-2', children: '内容 2' },",
+      "];",
+      "return <Tabs items={items} />;"
     ],
     "description": ""
   },
