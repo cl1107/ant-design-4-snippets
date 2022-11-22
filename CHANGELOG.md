@@ -45,3 +45,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### changed
 
 - dropdown icon 更改
+
+## [0.0.8] - 2022-09-06
+
+### changed
+
+- Breadcrumb、Dropdown、Menu、Steps、Tabs修改为4.24推荐的写法
