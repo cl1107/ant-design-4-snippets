@@ -178,7 +178,6 @@
       ");"
     ],
     "description": ""
-    
   },
   "Menu": {
     "prefix": "admenu",
@@ -1000,7 +999,7 @@
       "        placement=\"right\"",
       "        closable={false}",
       "        onClose={onClose}",
-      "        visible={visible}",
+      "        open={open}",
       "      >",
       "        <p>Some contents...</p>",
       "        <p>Some contents...</p>",
@@ -1012,7 +1011,7 @@
   "Modal": {
     "prefix": "admodal",
     "body": [
-      "<Modal title=\"$1\" visible>\r",
+      "<Modal title=\"$1\" open>\r",
       "    <p>$2</p>\r",
       "</Modal>\r",
       ""

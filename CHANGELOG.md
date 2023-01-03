@@ -50,4 +50,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### changed
 
-- Breadcrumb、Dropdown、Menu、Steps、Tabs修改为4.24推荐的写法
+- Breadcrumb、Dropdown、Menu、Steps、Tabs 修改为 4.24 推荐的写法
+
+## [0.1.0] - 2023-01-03
+
+### changed
+
+- Drawer 和 Modal 的 visible 改成 open
