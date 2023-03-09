@@ -1,9 +1,9 @@
 {
   "name": "ant-design-snippets",
   "displayName": "Ant Design Snippets",
-  "description": "Ant Design V4 Snippets for VSCode；antd v4 代码片段",
+  "description": "Ant Design V4/V5 Snippets for VSCode；antd v4/V5 代码片段",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.58.0"
   },

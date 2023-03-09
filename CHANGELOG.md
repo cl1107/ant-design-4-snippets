@@ -57,3 +57,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### changed
 
 - Drawer 和 Modal 的 visible 改成 open
+
+## [0.2.0] - 2023-03-09
+
+### changed
+
+- 新增 FloatButton 和 Watermark

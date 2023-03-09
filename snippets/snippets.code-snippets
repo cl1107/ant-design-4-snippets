@@ -1126,5 +1126,43 @@
     "prefix": "adbacktop",
     "body": ["<BackTop />"],
     "description": ""
+  },
+  "FloatButton.BackTop": {
+    "prefix": "adfloatbacktop",
+    "body": ["<FloatButton.BackTop />"],
+    "description": ""
+  },
+  "FloatButton": {
+    "prefix": "adfloatbtn",
+    "body": [
+      "<FloatButton",
+      "      shape=\"circle\"",
+      "      type=\"primary\"",
+      "      style={{ right: 94 }}",
+      "      icon={<CustomerServiceOutlined />}",
+      "    />"
+    ],
+    "description": ""
+  },
+  "FloatButton.Group": {
+    "prefix": "adfloatbtngroup",
+    "body": [
+      "<FloatButton.Group shape=\"square\" style={{ right: 94 }}>",
+      "      <FloatButton icon={<QuestionCircleOutlined />} />",
+      "      <FloatButton />",
+      "      <FloatButton icon={<SyncOutlined />} />",
+      "      <FloatButton.BackTop visibilityHeight={0} />",
+      "    </FloatButton.Group>"
+    ],
+    "description": ""
+  },
+  "Watermark": {
+    "prefix": "adwatermark",
+    "body": [
+      "<Watermark content=\"Ant Design\">",
+      "    <div style={{ height: 500 }} />",
+      "  </Watermark>"
+    ],
+    "description": ""
   }
 }
